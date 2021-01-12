@@ -1,0 +1,15 @@
+{
+  "name": "interactiv-api",
+  "version": "1.0.0",
+  "description": "年会抽奖用API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "OHS",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@cloudbase/node-sdk": "latest",
+    "express": "^4.17.1"
+  }
+}
