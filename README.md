@@ -20,12 +20,15 @@ const secretKey = ''			//AppSecret(小程序密钥)
 
 #### Message
 当前状态
-字段|定义
--|-
-activity_id|000：投票 001：抽奖 002：小游戏 003：准备中
-processing_number|当前轮次
-prize|当前奖品名称
-can_join|是否是可参加状态
+
+\_id|字段|定义
+-|-|-
+ALL|activity_id|000：投票 001：抽奖 002：小游戏 003：准备中
+ALL|processing_number|当前轮次
+ALL|prize|当前奖品名称
+ALL|can_join|是否是可参加状态
+OHS\/JHG|member_count|公司用户数量
+OHS\/JHG|processing_count|当前活动该公司的参加人数
 
 ```
 {"_id":"ALL","activity_id":"003","processing_number":15,"prize":"返场小礼品","can_join":false}
