@@ -36,21 +36,21 @@ can_join|是否是可参加状态
 #### Prize
 奖品信息
 ```
-{"_id":3,"prize_name":"Beats-Powerbeats Pro","prize_memo":""}
-{"_id":5,"prize_name":"佳明-本能系列户外表","prize_memo":""}
-{"_id":7,"prize_name":"哈曼卡顿-Allure","prize_memo":""}
-{"_id":10,"prize_name":"黛珂-AQ护肤套装","prize_memo":""}
-{"_id":14,"prize_name":"Apple-iPhone12 128G","prize_memo":""}
-{"_id":4,"prize_name":"雅思兰黛-面部肌光精华","prize_memo":""}
-{"_id":6,"prize_name":"乐高-机械组42110 路虎卫士","prize_memo":""}
+{"_id":0,"prize_name":"演示用奖品","prize_memo":""}
 {"_id":1,"prize_name":"大疆-OM4磁吸手机云台","prize_memo":""}
 {"_id":2,"prize_name":"Kindle-PaperWhite","prize_memo":""}
+{"_id":3,"prize_name":"Beats-Powerbeats Pro","prize_memo":""}
+{"_id":4,"prize_name":"雅思兰黛-面部肌光精华","prize_memo":""}
+{"_id":5,"prize_name":"佳明-本能系列户外表","prize_memo":""}
+{"_id":6,"prize_name":"乐高-机械组42110 路虎卫士","prize_memo":""}
+{"_id":7,"prize_name":"哈曼卡顿-Allure","prize_memo":""}
 {"_id":8,"prize_name":"大疆-Osmo Action","prize_memo":""}
 {"_id":9,"prize_name":"戴森-吸尘器","prize_memo":""}
-{"_id":13,"prize_name":"华为-P40 Pro 5G 8G+128G","prize_memo":""}
-{"_id":12,"prize_name":"大疆-机甲大师","prize_memo":""}
+{"_id":10,"prize_name":"黛珂-AQ护肤套装","prize_memo":""}
 {"_id":11,"prize_name":"Bosch-多功能破壁机","prize_memo":""}
-{"_id":0,"prize_name":"演示用奖品","prize_memo":""}
+{"_id":12,"prize_name":"大疆-机甲大师","prize_memo":""}
+{"_id":13,"prize_name":"华为-P40 Pro 5G 8G+128G","prize_memo":""}
+{"_id":14,"prize_name":"Apple-iPhone12 128G","prize_memo":""}
 {"_id":15,"prize_name":"返场小礼品","prize_memo":""}
 ```
 
