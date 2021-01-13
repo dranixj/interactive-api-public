@@ -19,11 +19,14 @@ const secretKey = ''			//AppSecret(小程序密钥)
 备份用记录集合
 
 #### Message
-当前状态 
-activity_id 000：投票 001：抽奖 002：小游戏 003：准备中
-processing_number
-prize 当前奖品名称
-can_join 是否是可参加状态
+当前状态
+字段|定义
+-|-
+activity_id|000：投票 001：抽奖 002：小游戏 003：准备中
+processing_number|当前轮次
+prize|当前奖品名称
+can_join|是否是可参加状态
+
 ```
 {"_id":"ALL","activity_id":"003","processing_number":15,"prize":"返场小礼品","can_join":false}
 {"_id":"OHS","member_count":118,"processing_count":8}
@@ -52,19 +55,22 @@ can_join 是否是可参加状态
 ```
 
 #### ProcessingStaff
-参加员工 程序运行中为根据条件自动添加
+参加员工 程序运行中会根据条件自动添加
 
 #### Staff
 员工状态
 
-_id 员工ID
-avatar 微信头像
-company 公司名(OHS;JHG)
-prize_id 获得的奖品ID，未获奖
-winning 是否已经获奖
-open_id 微信用户的OpenID 判断登录用
-prize_name 获得的奖品名称 默认为空
-times 剩余抽奖次数
+字段|定义
+-|-
+_id|员工ID
+avatar|微信头像
+company|公司名(OHS;JHG)
+prize_id|获得的奖品ID，未获奖
+winning|是否已经获奖
+open_id|微信用户的OpenID 判断登录用
+prize_name|获得的奖品名称 默认为空
+times|剩余抽奖次数
+
 `{"_id":1234567,"avatar":"","company":"OHS","prize_id":0,"winning":false,"name":"XXX","open_id":"","prize_name":"","times":3}`
 
 
